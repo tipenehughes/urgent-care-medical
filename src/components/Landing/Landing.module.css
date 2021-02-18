@@ -1,0 +1,107 @@
+.landingContainer {
+    min-width: 100%;
+    height: 100vh;
+    padding: 10vh 10rem 0 10rem;
+    background-color: rgba(5, 41, 158, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingFlexItem {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.landingFlexItem:nth-of-type(2) {
+    align-items: flex-end;
+}
+
+.landingHeader {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 0.9;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 2.5rem;
+}
+
+.landingText {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 2.5rem;
+}
+
+.landingBtnContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.landingBtn {
+    display: grid;
+    place-items: center;
+    height: 4rem;
+    width: 14rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 74, 227, 1);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.landingBtn:nth-child(2) {
+    margin-left: 1rem;
+    background-color: transparent;
+    border: 4px solid rgba(94, 74, 227, 1);
+}
+
+.landingImg {
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 9.5rem;
+    top: 4.375rem;
+}
+
+.landingNametag {
+    position: absolute;
+    width: 22rem;
+    height: 4.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    right: -8rem;
+    top: 2rem;
+    z-index: 1;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(86, 86, 86, 1);
+}
+
+.quote {
+    color: rgba(94, 74, 227, 1);
+    position: absolute;
+    font-size: 2.5rem;
+    bottom: 3.5rem;
+    right: 1.2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .landingContainer {
+        padding: 10vh 7rem 0 7rem;
+    }
+}
