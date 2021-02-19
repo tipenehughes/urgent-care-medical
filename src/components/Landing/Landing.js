@@ -1,11 +1,11 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
-import doctor from "../../assets/img/doctor1.png";
+import doctor from "../../assets/img/doctor.png";
 import styles from "../Landing/Landing.module.css";
 
 const Landing = () => {
     return (
-        <div className={styles.landingContainer}>            
+        <div className={styles.landingContainer}>
             <div className={styles.landingFlexItem}>
                 <h2 className={styles.landingHeader}>
                     Direct Pediatric and <br /> Adult Urgent Care
