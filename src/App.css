@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --primary-blue: rgba(5, 41, 158, 1);
+    --secondary-purple: rgba(94, 74, 227, 1);
+    --primary-text: rgba(44, 44, 44, 1);
+    --secondary-text: rgba(86, 86, 86, 1);
+
+    --font-size-xl: 3rem;
+    --font-size-lg: 2.25rem;
+    --font-size-md: 1.25rem;
+    --font-size-sm: 1.125rem;
+    --font-size-nav: 1rem;
+}
+
 * {
     padding: 0;
     margin: 0;

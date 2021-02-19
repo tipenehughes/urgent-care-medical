@@ -27,6 +27,7 @@ const Covid = () => {
                     </div>
                     <div className={styles.boxItem}>
                         <p>Make an appointment</p>
+                        <BsArrowRight size={30} color={"var(--primary-text)"} />
                     </div>
                 </div>
                 <div className={styles.box}>
@@ -42,7 +43,7 @@ const Covid = () => {
                     </div>
                     <div className={styles.boxItem}>
                         <p>Make an appointment</p>
-                        <BsArrowRight />
+                        <BsArrowRight size={30} color={"var(--primary-text)"} />
                     </div>
                 </div>
                 <div className={styles.box}>
@@ -58,6 +59,7 @@ const Covid = () => {
                     </div>
                     <div className={styles.boxItem}>
                         <p>Make an appointment</p>
+                        <BsArrowRight size={30} color={"var(--primary-text)"} />
                     </div>
                 </div>
             </div>

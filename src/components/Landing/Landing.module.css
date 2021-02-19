@@ -2,7 +2,7 @@
     min-width: 100%;
     height: 120vh;
     padding: 10vh 10rem 0 10rem;
-    background-color: rgba(5, 41, 158, 1);
+    background-color: var(--primary-blue);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,17 +29,17 @@
 }
 
 .landingHeader {
-    font-size: 3.5rem;
+    font-size: var(--font-size-xl);
     font-weight: 700;
     line-height: 0.9;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     padding-bottom: 2.5rem;
 }
 
 .landingText {
-    font-size: 1.5rem;
+    font-size: var(--font-size-md);
     font-weight: 500;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     padding-bottom: 2.5rem;
 }
 
@@ -56,12 +56,12 @@
     place-items: center;
     height: 4rem;
     width: 14rem;
-    font-size: 1.25rem;
+    font-size: var(--font-size-md);
     font-weight: 500;
     cursor: pointer;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(94, 74, 227, 1);
+    color: var(--white);
+    background-color: var(--secondary-purple);
     outline: none;
     border: none;
     border-radius: 10px;
@@ -70,7 +70,7 @@
 .landingBtn:nth-child(2) {
     margin-left: 1rem;
     background-color: transparent;
-    border: 4px solid rgba(94, 74, 227, 1);
+    border: 4px solid var(--secondary-purple);
 }
 
 .landingImg {
@@ -84,22 +84,22 @@
 
 .landingNametag {
     position: absolute;
-    width: 22rem;
+    width: 18rem;
     height: 4.5rem;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--white);
     right: -5rem;
     top: 6.5rem;
     z-index: 1;
     border-radius: 20px;
     display: grid;
     place-items: center;
-    font-size: 1.5rem;
+    font-size: var(--font-size-md);
     font-weight: 600;
-    color: rgba(86, 86, 86, 1);
+    color: var(--secondary-text);
 }
 
 .quote {
-    color: rgba(94, 74, 227, 1);
+    color: var(--secondary-purple);
     position: absolute;
     font-size: 2.5rem;
     bottom: 3.5rem;
