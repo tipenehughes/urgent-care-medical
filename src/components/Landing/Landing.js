@@ -1,11 +1,11 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
-import doctor from "../../assets/img/doctor.jpg";
+import doctor from "../../assets/img/doctor1.png";
 import styles from "../Landing/Landing.module.css";
 
 const Landing = () => {
     return (
-        <div className={styles.landingContainer}>
+        <div className={styles.landingContainer}>            
             <div className={styles.landingFlexItem}>
                 <h2 className={styles.landingHeader}>
                     Direct Pediatric and <br /> Adult Urgent Care
@@ -14,7 +14,12 @@ const Landing = () => {
                 <p className={styles.landingText}>8am to 8pm - 7 days a week</p>
                 <div className={styles.landingBtnContainer}>
                     <button className={styles.landingBtn}>Appointments</button>
-                    <a href="#" className={styles.landingBtn}>
+                    <a
+                        href="https://www.solvhealth.com/account/login/payments/select/group/ApbNpw"
+                        target="blank"
+                        rel="noreferrer noopener"
+                        className={styles.landingBtn}
+                    >
                         Pay a Bill
                     </a>
                 </div>

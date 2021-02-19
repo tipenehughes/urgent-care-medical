@@ -1,4 +1,3 @@
-import React from "react";
 import { BiPlusMedical } from "react-icons/bi";
 import styles from "./Logo.module.css";
 
@@ -9,7 +8,7 @@ const Logo = () => {
             <h2>
                 Urgent
                 <span className={styles.iconSpan}>
-                    {<BiPlusMedical className={styles.icon} />}
+                    {<BiPlusMedical size={20} color={"white"} />}
                 </span>
                 Care
             </h2>

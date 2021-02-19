@@ -7,12 +7,16 @@
     font-family: "Montserrat", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1300px) {
-  * {
-    font-size: 14px;
-  }
+    :root {
+        font-size: 14px;
+    }
 }

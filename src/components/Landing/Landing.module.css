@@ -1,11 +1,16 @@
 .landingContainer {
     min-width: 100%;
-    height: 100vh;
+    height: 120vh;
     padding: 10vh 10rem 0 10rem;
     background-color: rgba(5, 41, 158, 1);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("/src/assets/img/blueBg.png"),
+        url("/src/assets/img/blueBg.png");
+    background-repeat: no-repeat;
+    background-position: top -400px left -250px, bottom -500px left -400px;
+    background-size: 800px;
 }
 
 .landingFlexItem {
@@ -52,6 +57,7 @@
     height: 4rem;
     width: 14rem;
     font-size: 1.25rem;
+    font-weight: 500;
     cursor: pointer;
     text-align: center;
     color: rgba(255, 255, 255, 1);
@@ -69,11 +75,11 @@
 
 .landingImg {
     border-radius: 20px 0 0 20px;
-    height: 100%;
+    height: 90%;
     width: auto;
     position: absolute;
-    left: 9.5rem;
-    top: 4.375rem;
+    left: 5rem;
+    top: 9rem;
 }
 
 .landingNametag {
@@ -81,8 +87,8 @@
     width: 22rem;
     height: 4.5rem;
     background-color: rgba(255, 255, 255, 1);
-    right: -8rem;
-    top: 2rem;
+    right: -5rem;
+    top: 6.5rem;
     z-index: 1;
     border-radius: 20px;
     display: grid;
