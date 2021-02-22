@@ -16,13 +16,11 @@ const Corporate = () => {
                     <h4>Corporate Visits</h4>
                 </div>
                 <div className={styles.boxItem}>
-                    <p>Keep your team healthy to keep your business running.</p>
                     <p>
-                        Have a dedicated provider on-site for scheduled hours.
-                    </p>
-                    <p>
-                        Provide convenient urgent care services curated for your
-                        team. ​
+                        We'll keep your team healthy to keep your business
+                        running. Have a dedicated provider on-site for scheduled
+                        hours. Alternatively, we can provide convenient urgent
+                        care services curated for your team. ​
                     </p>
                 </div>
                 <div className={styles.boxItem}>
