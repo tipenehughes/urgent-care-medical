@@ -32,7 +32,7 @@ const Housecalls = () => {
                     </p>
                 </div>
                 <div className={styles.boxItem}>
-                    <p>Contact us to learn more about corporate visits</p>
+                    <p>Contact us to learn more about house calls</p>
                 </div>
             </div>
             <div className={styles.imgContainer}>
