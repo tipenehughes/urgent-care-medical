@@ -4,8 +4,6 @@ import Landing from "./components/Landing/Landing";
 import Covid from "./components/covid/Covid";
 import Sections from "./components/sections/Sections";
 import SectionsData from "./components/sections/SectionsData";
-import Corporate from "./components/corporate/Corporate";
-import Housecalls from "./components/housecalls/Housecalls";
 import Insurance from "./components/insurance/Insurance";
 
 function App() {
@@ -18,8 +16,6 @@ function App() {
             <Landing />
             <Covid />
             {sections}
-            <Corporate />
-            <Housecalls />
             <Insurance />
         </div>
     );
